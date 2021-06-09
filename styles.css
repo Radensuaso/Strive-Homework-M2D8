@@ -1,15 +1,16 @@
 .first-exercise {
-  border: 2px solid black;
-  border-radius: 30px;
+  /* border: 2px solid black; */
+  /* border-radius: 30px; */
   color: white;
   height: 400px;
 }
 
 .row .fist-col {
+  border: 2px solid black;
   background-color: green;
-  border-right: 2px solid black;
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
+  /* border-right: 2px solid black; */
+  border-top-left-radius: 28px;
+  border-bottom-left-radius: 28px;
   justify-content: center;
   align-content: center;
   height: 100%;
@@ -21,6 +22,8 @@
 
 .row .second-col {
   background-color: blue;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
   justify-content: center;
   align-content: center;
   height: 100%;
@@ -31,6 +34,12 @@
 
 .row .third-col {
   flex-direction: column;
+  /* border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  border-right: 2px solid black; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .third-col-part-one {
@@ -38,6 +47,17 @@
   width: 100%;
   /* height: calc(100% / 3); */
   flex-grow: 1;
+  /* border-bottom: 2px solid black; */
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-top-right-radius: 28px;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .third-col-part-two {
@@ -45,6 +65,17 @@
   width: 100%;
   /* height: calc(100% / 3); */
   flex-grow: 1;
+  /* border-bottom: 2px solid black; */
+  /* border-top: 2px solid black; */
+  border-right: 2px solid black;
+
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .third-col-part-three {
@@ -52,4 +83,16 @@
   width: 100%;
   /* height: calc(100% / 3); */
   flex-grow: 1;
+  border-bottom-right-radius: 28px;
+  border-bottom: 2px solid black;
+  /* border-top: 2px solid black; */
+  border-right: 2px solid black;
+
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
