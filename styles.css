@@ -2,17 +2,16 @@ body {
   text-align: center;
 }
 
+/*First exercise*/
+
 .first-exercise {
-  /* border: 2px solid black; */
-  /* border-radius: 30px; */
   color: white;
   height: 400px;
 }
 
 .row .fist-col {
   border: 2px solid black;
-  background-color: green;
-  /* border-right: 2px solid black; */
+  background-color: #6bb56b;
   border-top-left-radius: 28px;
   border-bottom-left-radius: 28px;
   justify-content: center;
@@ -25,7 +24,7 @@ body {
 }
 
 .row .second-col {
-  background-color: blue;
+  background-color: #299bff;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   justify-content: center;
@@ -38,9 +37,6 @@ body {
 
 .row .third-col {
   flex-direction: column;
-  /* border-bottom: 2px solid black;
-  border-top: 2px solid black;
-  border-right: 2px solid black; */
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -48,11 +44,9 @@ body {
 }
 
 .third-col-part-one {
-  background-color: rgb(240, 240, 173);
+  background-color: #fff7bd;
   width: 100%;
-  /* height: calc(100% / 3); */
   flex-grow: 1;
-  /* border-bottom: 2px solid black; */
   border-top: 2px solid black;
   border-right: 2px solid black;
   border-top-right-radius: 28px;
@@ -66,14 +60,10 @@ body {
 }
 
 .third-col-part-two {
-  background-color: rgb(219, 219, 62);
+  background-color: #ffed69;
   width: 100%;
-  /* height: calc(100% / 3); */
   flex-grow: 1;
-  /* border-bottom: 2px solid black; */
-  /* border-top: 2px solid black; */
   border-right: 2px solid black;
-
   justify-content: center;
   align-content: center;
   height: 100%;
@@ -84,15 +74,12 @@ body {
 }
 
 .third-col-part-three {
-  background-color: rgb(110, 110, 22);
+  background-color: #ffe41f;
   width: 100%;
-  /* height: calc(100% / 3); */
   flex-grow: 1;
   border-bottom-right-radius: 28px;
   border-bottom: 2px solid black;
-  /* border-top: 2px solid black; */
   border-right: 2px solid black;
-
   justify-content: center;
   align-content: center;
   height: 100%;
@@ -102,9 +89,22 @@ body {
   text-align: center;
 }
 
+/* 3rd exercise*/
+
 .butns-min {
   height: 100%;
   width: 100%;
   align-items: center;
   justify-content: space-between;
+}
+
+/* 4th exercise */
+
+div.exercise-4 div.row {
+  text-align: left;
+}
+
+div.exercise-4 div.row div.col-8 h3 span {
+  font-weight: normal;
+  font-size: 24px;
 }
